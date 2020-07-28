@@ -15,7 +15,9 @@ $('#pagination-demo').twbsPagination({
   onPageClick: function (event, page) {
     $('#page-content').text('Page ' + page);
   }
-});
+}).twbsPaginationGo({
+            totalPages: 35
+        });;
 ```
 
 ## Contributing
